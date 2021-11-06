@@ -171,6 +171,7 @@ class GifImageState extends State<GifImage>{
 
   @override
   Widget build(BuildContext context) {
+    //widget.controller.forward();
     final RawImage image = new RawImage(
       image: _imageInfo?.image,
       width: widget.width,
